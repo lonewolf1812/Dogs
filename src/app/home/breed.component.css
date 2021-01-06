@@ -1,0 +1,18 @@
+.action-bar
+{
+    color: rgb(240, 240, 245);
+    background-color: black;
+}
+.edit
+{
+    color: black;
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.pic
+{
+    height: 550px;
+}

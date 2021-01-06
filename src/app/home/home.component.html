@@ -1,0 +1,18 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Dog Breeds"></Label>
+</ActionBar>
+
+<StackLayout>
+    <SearchBar hint="Enter search term here ..." class="search"
+    [text]="searchPhrase" (textChange)="onTextChanged($event)" 
+    (clear)="onClear($event)" (submit)="onSubmit($event)">
+    </SearchBar>
+    
+    <ListView [items]="list">
+        <ng-template let-item="item">
+            <StackLayout (tap)="gotoBreed(item)">
+                <Label class= "content" [text]="item"></Label>
+            </StackLayout>
+        </ng-template>
+    </ListView>
+</StackLayout>

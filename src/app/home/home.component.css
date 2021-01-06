@@ -1,0 +1,21 @@
+.content
+{
+    color: black;
+    margin: 5px;
+    margin-top: 18px;
+    margin-bottom: 25px;
+    font-weight: bold;    
+    text-transform: capitalize;
+    font-size: 15px;
+    text-align: center;
+}
+.action-bar
+{
+    color: rgb(240, 240, 245);
+    background-color: black;
+}
+.search
+{
+    height: 80px;
+    font-size: 15px;
+}

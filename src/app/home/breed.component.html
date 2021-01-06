@@ -1,0 +1,10 @@
+<ActionBar class="action-bar">
+    <Label class="action-bar-title" text="Image"></Label>
+</ActionBar>
+
+<GridLayout>
+    <Label class= "edit" [text]="breedName"></Label>
+    <ActivityIndicator class="actLoading" [busy]="isLoading"
+        [visibility]="isLoading ? 'visible' : 'collapse'"></ActivityIndicator>
+    <Image [src]="list" class="pic"></Image>
+</GridLayout>
